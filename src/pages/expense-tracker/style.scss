@@ -1,0 +1,117 @@
+.expense-container {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+  overflow: visible;
+
+  button {
+    border-image-source: linear-gradient(to right, #1daafb -25%, #ed3d8a 125%);
+    border-image-slice: 1;
+    border-width: 3px;
+    border-style: solid;
+    color: black;
+    padding: 10px 30px;
+    font-family: "Space Grotesk", sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #00000000;
+  }
+}
+
+.user-info {
+  display: flex;
+  width: 100%;
+
+  h1 {
+    width: 60%;
+    font-size: 26px;
+    background: linear-gradient(to right, #1daafb, #ed3d8a);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div {
+    width: 30%;
+
+    .profile-photo-block {
+      width: 100%;
+    }
+
+    button {
+      padding: 5px 8px;
+    }
+  }
+}
+
+.balance {
+  display: flex;
+  align-items: center;
+  h3 {
+    width: 40%;
+  }
+
+  h2 {
+    width: 60%;
+    font-size: 40px;
+  }
+}
+
+.summary {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.summary > * {
+  padding: 0 30px;
+  border: solid 1px grey;
+}
+.type-block {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.type-block input {
+  width: 100%;
+  padding: 10px 20px;
+  background-image: linear-gradient(60deg, #ed3d8a -20%, #1daafb 120%);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.type-block input::placeholder {
+  color: white;
+  font-size: 16px;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.type-block input[type="text"] {
+  margin-right: 10px;
+}
+
+.expense-or-income {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+.transactions ul {
+  border-image-source: linear-gradient(to bottom, #3d185e, #ed3d8a);
+  border-image-slice: 1;
+  border-width: 3px;
+  border-style: solid;
+  padding: 5px;
+  margin-top: 10px;
+  max-height: 30vh;
+  overflow: scroll;
+}
+
+.transactions ul li {
+  list-style: none;
+}
