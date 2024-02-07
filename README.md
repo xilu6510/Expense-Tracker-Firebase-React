@@ -5,4 +5,4 @@
 3. type "npm start" / "yar start" (if yarn is installed)
 4. Go to [localhost:3000](http://localhost:3000/) (normally) to have a look of this application in your browser.
 
-Or access to https://portfolio-website-with-facebook-livechat-eight.vercel.app/ directlly to have a look :)
+Or access to https://expense-tracker-a6a67.web.app/ directlly to have a look :)
